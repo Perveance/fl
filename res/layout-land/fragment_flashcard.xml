@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/flashcard_front_label"
+        style="?android:listSeparatorTextViewStyle"
+        />
+        
+    <EditText android:id="@+id/flashcard_fronttext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/flashcard_fronttext_hint"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/flashcard_back_label"
+        style="?android:listSeparatorTextViewStyle"
+        />
+    
+    <EditText android:id="@+id/flashcard_backtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/flashcard_backtext_hint"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/flashcard_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="16dp" />
+
+        <CheckBox
+            android:id="@+id/flashcard_learnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:text="@string/crime_learnt_label" />
+
+    </LinearLayout>
+
+</LinearLayout>

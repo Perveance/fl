@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FlashcardLearner</string>
+    <string name="action_settings">Settings</string>
+    <string name="flashcard_fronttext_hint">Enter a flashcard\'s front text</string>
+    <string name="flashcard_backtext_hint">Enter a flashcard\'s back text</string>
+    <string name="flashcard_front_label">Front</string>
+    <string name="flashcard_back_label">Back</string>
+    <string name="crime_learnt_label">Learnt?</string>
+    <string name="flashcards_title">Flashcards</string>
+    <string name="new_flashcard">New Flashcard</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle">If you see something, say something</string>
+    <string name="delete_flashcard">Delete</string>
+    <string name="send_flashcard">Send Flashcard</string>
+    <string name="flashcard_send_subject">New word to learn</string>
+
+</resources>
